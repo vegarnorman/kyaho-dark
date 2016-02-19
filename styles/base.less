@@ -179,9 +179,8 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .invalid.illegal {
-  color: @kyaho-illegal;
-  font-weight: bold;
-  text-decoration: underline;
+  color: #000;
+  background-color: @kyaho-illegal;
 }
 
 .string {
@@ -327,7 +326,7 @@ atom-text-editor[mini] .scroll-view,
 
 .editor, atom-text-editor::shadow {
   .bracket-matcher {
-    background: @kyaho-selection;
+    border-width: 1px;
     border-color: @brand-gray8;
   }
 }
