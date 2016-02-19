@@ -34,7 +34,7 @@ atom-text-editor, :host {
 
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @light-gray;
+    color: @brand-gray5;
   }
 
   .gutter .line-number.folded {
@@ -50,7 +50,7 @@ atom-text-editor, :host {
   }
 
   .selection {
-    color: @black !important;
+    color: #000 !important;
   }
 
   .selection .region {
@@ -103,7 +103,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.section {
-    color: @blue;
+    color: @brand-blue;
   }
 
   &.name.tag {
@@ -122,10 +122,10 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .keyword {
-  color: @brand-purple;
+  color: @brand-mint;
 
   &.control {
-    color: @brand-purple;
+    color: @brand-mint;
   }
 
   &.operator {
@@ -142,15 +142,15 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .storage {
-  color: @brand-purple;
+  color: @brand-mint;
 }
 
 .constant {
   color: @brand-orange;
 
   &.character.escape {
-    color: @black;
-    background-color: @gray2;
+    color: @brand-gray8;
+    background-color: @brand-gray2;
   }
 
   &.numeric {
@@ -257,15 +257,15 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.require {
-    color: @brand-purple;
+    color: @brand-mint;
   }
 
   &.selector {
-    color: @brand-red;
+    color: @brand-pink;
   }
 
   &.separator {
-    color: @black;
+    color: @brand-gray8;
   }
 }
 
@@ -280,7 +280,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.changed {
-    color: @brand-purple;
+    color: @brand-mint;
   }
 
   &.deleted {
@@ -301,7 +301,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.list {
-    color: @brand-red;
+    color: @brand-pink;
   }
 
   &.quote {
@@ -328,6 +328,6 @@ atom-text-editor[mini] .scroll-view,
 .editor, atom-text-editor::shadow {
   .bracket-matcher {
     background: @kyaho-selection;
-    border-color: #000000;
+    border-color: @brand-gray8;
   }
 }
