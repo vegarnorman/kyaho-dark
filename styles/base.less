@@ -117,9 +117,11 @@ atom-text-editor .search-results .marker.current-result .region,
     &.id {
       // Affects CSS and HTML ID's
       color: @kyaho-entity-id;
+      font-weight: bold;
     }
   }
 }
+
 
 .keyword {
   color: @brand-mint;
@@ -326,6 +328,7 @@ atom-text-editor[mini] .scroll-view,
 
 .editor, atom-text-editor::shadow {
   .bracket-matcher {
+    background-color: @brand-selection;
     border-width: 1px;
     border-color: @brand-gray8;
   }
